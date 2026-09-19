@@ -1,18 +1,15 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Thesis downloads</title>
-<style>body{margin:0;padding:3rem 1.25rem;background:#f4f7f9;color:#182b39;font:1rem/1.6 system-ui,sans-serif}main{max-width:44rem;margin:auto;padding:2rem;background:#fff;border-radius:1rem}h1{line-height:1.2}a{color:#006b75}pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}.download{display:inline-block;background:#006b75;color:white;padding:.8rem 1.2rem;border-radius:.4rem;text-decoration:none}.download:focus-visible{outline:3px solid #182b39;outline-offset:3px}</style>
-<main><h1>Thesis 0.1.3</h1><p>Windows x64 · Desktop pilot</p><p><a class="download" href="https://github.com/lukemosse/thesis-releases/releases/download/v0.1.3/ThesisSetup-0.1.3.exe">Download Thesis installer</a></p><pre>Thesis 0.1.3 — update-enabled Windows pilot
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Thesis downloads</title><style>body{margin:0;padding:3rem 1.25rem;background:#f4f7f9;color:#182b39;font:1rem/1.6 system-ui,sans-serif}main{max-width:44rem;margin:auto;padding:2rem;background:#fff;border-radius:1rem}h1{line-height:1.2}a{color:#006b75}pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}.download{display:inline-block;background:#006b75;color:white;padding:.8rem 1.2rem;border-radius:.4rem;text-decoration:none}.download:focus-visible{outline:3px solid #182b39;outline-offset:3px}</style><main><h1>Thesis 0.1.4</h1><p>Windows x64</p><p><a class="download" href="https://github.com/lukemosse/thesis-releases/releases/download/v0.1.4/ThesisSetup-0.1.4.exe">Download Thesis installer</a></p><pre>Thesis 0.1.4 — updater test
 
-- Enables signed update checks from https://thesisreleases.netlify.app/.
-- Downloads verified update packages from GitHub Releases.
-- Includes the preview browser-launch and non-AI SCORM publishing fixes.
+- Adds “Update test release: 0.1.4” to Help → About Thesis.
+- Clarifies that the first installer-launched session must be closed and Thesis
+  reopened from the Start menu before checking for updates.
 
-Close Thesis and run ThesisSetup-0.1.3.exe as your normal Windows user. Versions
-0.1.2 and earlier need this manual installation to enable future site updates.
-Use Application → Check for Updates, then save and choose Restart to Update when
-a newer version is ready.
+To test the updater from 0.1.3: choose Application → Check for Updates, wait until
+0.1.4 is ready, save any work, then choose Application → Restart to Update.
+After reopening, check Help → About Thesis for version 0.1.4 and the test marker.
+Open an existing course to confirm your workspace is retained.
 
-This is a pilot installer without Windows Authenticode signing. Update manifests
-are signed independently. Managed Bayer laptop and installed version-to-version
-upgrade testing remain outstanding. AI authoring and advanced media workflows
-are not included in this pilot.
+This remains a Windows pilot without Authenticode signing. Update manifests are
+Ed25519-signed and packages are hash-verified. No course format or content changes
+are included in this release.
 </pre><p>Close Thesis before installing. Existing users with site updates enabled can use Application → Check for Updates.</p></main></html>
