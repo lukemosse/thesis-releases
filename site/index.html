@@ -1,15 +1,8 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Thesis downloads</title><style>body{margin:0;padding:3rem 1.25rem;background:#f4f7f9;color:#182b39;font:1rem/1.6 system-ui,sans-serif}main{max-width:44rem;margin:auto;padding:2rem;background:#fff;border-radius:1rem}h1{line-height:1.2}a{color:#006b75}pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}.download{display:inline-block;background:#006b75;color:white;padding:.8rem 1.2rem;border-radius:.4rem;text-decoration:none}.download:focus-visible{outline:3px solid #182b39;outline-offset:3px}</style><main><h1>Thesis 0.1.4</h1><p>Windows x64</p><p><a class="download" href="https://github.com/lukemosse/thesis-releases/releases/download/v0.1.4/ThesisSetup-0.1.4.exe">Download Thesis installer</a></p><pre>Thesis 0.1.4 — updater test
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Thesis downloads</title><style>body{margin:0;padding:3rem 1.25rem;background:#f4f7f9;color:#182b39;font:1rem/1.6 system-ui,sans-serif}main{max-width:44rem;margin:auto;padding:2rem;background:#fff;border-radius:1rem}h1{line-height:1.2}a{color:#006b75}pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere}.download{display:inline-block;background:#006b75;color:white;padding:.8rem 1.2rem;border-radius:.4rem;text-decoration:none}.download:focus-visible{outline:3px solid #182b39;outline-offset:3px}</style><main><h1>Thesis 0.1.5</h1><p>Windows x64</p><p><a class="download" href="https://github.com/lukemosse/thesis-releases/releases/download/v0.1.5/ThesisSetup-0.1.5.exe">Download Thesis installer</a></p><pre>Thesis 0.1.5 — update progress and connection feedback
 
-- Adds “Update test release: 0.1.4” to Help → About Thesis.
-- Clarifies that the first installer-launched session must be closed and Thesis
-  reopened from the Start menu before checking for updates.
+Check for Updates now opens a status window immediately, including when a background check is already running. Downloads show progress and can continue while you work. Connection failures are visible and can be retried. Slow downloads have a longer time limit; stalled transfers stop with an explanatory error.
 
-To test the updater from 0.1.3: choose Application → Check for Updates, wait until
-0.1.4 is ready, save any work, then choose Application → Restart to Update.
-After reopening, check Help → About Thesis for version 0.1.4 and the test marker.
-Open an existing course to confirm your workspace is retained.
+Save your work before using Application → Restart to Update. If 0.1.3 or 0.1.4 cannot complete its update, close Thesis and run this installer, then reopen it from the Start menu. There is no need to uninstall or delete your workspace.
 
-This remains a Windows pilot without Authenticode signing. Update manifests are
-Ed25519-signed and packages are hash-verified. No course format or content changes
-are included in this release.
+Windows x64 desktop pilot. The update manifest is cryptographically signed; the Windows installer is not yet Authenticode-signed. Native in-place updating remains under pilot validation.
 </pre><p>Close Thesis before installing. Existing users with site updates enabled can use Application → Check for Updates.</p></main></html>
